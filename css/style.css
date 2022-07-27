@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: gainsboro;
+    background-color: white;
 }
 
 /*inicio-barra-navegação*/
@@ -204,6 +204,7 @@ nav {
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .projetos {
@@ -211,8 +212,7 @@ nav {
     flex-direction: column;
     align-items: center;
     width: 400px;
-    
-    border: 1px solid black;
+    background-color: gainsboro;
     padding: 10px;
 }
 
@@ -220,5 +220,32 @@ nav {
     display: flex;
     height: 280px;
     width: 350px;
-    object-fit: cover;
+    object-fit: contain;
+}
+
+.projetos p {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.projetos a {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.projetos a:hover {
+    cursor: pointer;
+    background-color: rgb(22, 21, 21);
 }

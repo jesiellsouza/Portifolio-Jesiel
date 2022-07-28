@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: white;
 }
@@ -52,12 +56,13 @@ nav {
 .nav-list a {
     color: #fff;
     text-decoration: none;
+    padding: 5px;
     transition: 0.3s;
+    border-radius: 5px;
 }
 
 .nav-list a:hover {
-    color: gray;
-    border-bottom: 2px solid white;
+    color: grey;
 }
 
 .nav-list {
@@ -229,21 +234,22 @@ nav {
     flex-wrap: wrap;
     gap: 10px;
     margin: 10px 0;
-}
+}    
 
 .projetos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
+    width: 380px;
     background-color: gainsboro;
     padding: 15px;
+    border-radius: 20px;
 }
 
 .projetos img {
     display: flex;
     height: 280px;
-    width: 350px;
+    width: 330px;
     object-fit: contain;
     transition: 0.8s;
 }
@@ -258,7 +264,7 @@ nav {
     width: 100%;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
     font-weight: 100;
     margin: 10px 0;

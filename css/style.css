@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;1,200&family=Roboto:wght@300;400;500&display=swap');
 
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -18,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: black;
     height: 15vh;
     border-bottom: 5px solid #fff;
@@ -118,7 +119,7 @@ nav {
 }
 
 .future-title h2{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 500;
     color: #fff;
@@ -145,7 +146,6 @@ nav {
     flex-wrap: wrap;
     gap: 5px;
     width: 100%;
-    height: 70vh;
     background-color: #fff;
 }
 
@@ -159,17 +159,19 @@ nav {
 }
 
 .sobre h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: bold;
     letter-spacing: 3px;
+    color: black;
 }
 
 .sobre p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
     text-align: left;
-    line-height: 22px;
+    line-height: 20px;
 }
 
 .sobre a {
@@ -179,9 +181,8 @@ nav {
     padding: 5px;
     background-color: black;
     border-radius: 10px;
-    box-shadow: 1px 1px 4px 2px black;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-decoration: none;
     transition: 1s;
@@ -203,6 +204,10 @@ nav {
 }
 /*final-sobre*/
 
+/*inicio-habilidades*/
+
+/*final-habilidades*/
+
 .linha {
     width: 50%;
     height: 4px;
@@ -218,7 +223,7 @@ nav {
 
 /*inicio-projetos*/
 .projetos-title {
-    font-family: 'Roboto';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 30px;
     color: black;
@@ -232,7 +237,7 @@ nav {
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     margin: 10px 0;
 }    
 
@@ -241,7 +246,7 @@ nav {
     flex-direction: column;
     align-items: center;
     width: 380px;
-    background-color: gainsboro;
+    background-color: #001e32;
     padding: 15px;
     border-radius: 20px;
 }
@@ -263,25 +268,31 @@ nav {
     display: flex;
     width: 100%;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     font-size: 20px;
     color: #fff;
-    font-weight: 100;
     margin: 10px 0;
     padding: 8px 0;
-    border-radius: 9px;
-    background-color: black;
+    border-bottom: 2px solid white;
+}
+
+.projetos p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 20px;
 }
 
 .projetos a {
     display: flex;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: black;
+    color: #fff;
     border-radius: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fc453d;
     text-decoration: none;
     padding: 10px;
     transition: 0.4s;
@@ -290,8 +301,7 @@ nav {
 }
 
 .projetos a:hover {
-    border: 1px solid black;
-    background-color: white;
+    background-color: #fc453d;
 }
 /*fim-projetos*/
 
@@ -336,15 +346,15 @@ nav {
 .criador {
     display: flex;
     width: 100%;
-    height: 5vh;
     justify-content: center;
     background-color: black;
     border-top: 1px solid white;
-    padding: 5px 0;
+    padding: 15px;
 }
 
 .criador p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: #fff;
 }
+/*final-rodape*/

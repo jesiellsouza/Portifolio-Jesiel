@@ -36,9 +36,16 @@
         z-index: 1;
     }
     .future-title h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
     .sobre-img img {
         display: none;
+    }
+    .projetos {
+        width: 320px;
+    }
+
+    .projetos img {
+        width: 270px;
     }
 }

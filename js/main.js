@@ -1,5 +1,5 @@
 var typed = new Typed(".auto-type", {
-    strings: ["O Futuro Está Aqui!", "A melhor forma de prever o futuro é criá-lo!", "Obrigado!"],
+    strings: ["A melhor forma de prever o futuro é criá-lo!", "Reinventando conteúdo.", "Pra mim, tudo é um desafio que pode ser descoberto!", "Obrigado!"],
     typeSpeed: 150,
     loop: true
 })

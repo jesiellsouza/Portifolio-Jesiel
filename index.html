@@ -28,7 +28,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#top-sobre">Sobre</a></li>
                 <li><a href="#top-projects">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#top-contato">Contato</a></li>
                 <li>
                     <a href="https://github.com/jesiellsouza" target="_blank"><i class="fa-brands fa-github"></i></a>
                 </li>
@@ -70,24 +70,22 @@
     <!--final-sobre-->
 
     <!--inicio-habilidade-->
-    <div class="habilidade-content">
-        <div class="habilidade-title">
-            <h2>Habilidades</h2>
-        </div>
+    <h2 class="habilidade-title">Habilidades</h2>
 
+    <div class="habilidade-content">
         <div class="habilidade-list">
             <ul>
-                <li>Aplicações Frontend JavaScript para sites, apps e outros meios.</li>
-                <li>Criação de páginas dinâmicas na Web utilizando HTML, CSS e JavaScript.</li>
-                <li>Programação orientada a objetos com TypeScript e conhecimento em Clean Code (código limpo).</li>
+                <li><span>.</span> Aplicações Frontend JavaScript para sites, apps e outros meios.</li>
+                <li><span>.</span> Criação de páginas dinâmicas na Web utilizando HTML, CSS e JavaScript.</li>
+                <li><span>.</span> Programação orientada a objetos com TypeScript e conhecimento em Clean Code (código limpo).</li>
             </ul>
         </div>
 
         <div class="habilidade-list">
             <ul>
-                <li>Domínio do DOM e inspeção de códigos, análise de performance.</li>
-                <li>Desenvolvimento avançado fullstack com React e Node.js.</li>
-                <li>Deploy de aplicações Frontend utilizando Amazon AWS.</li>
+                <li><span>.</span> Domínio do DOM e inspeção de códigos, análise de performance.</li>
+                <li><span>.</span> Desenvolvimento avançado fullstack com React e Node.js.</li>
+                <li><span>.</span> Deploy de aplicações Frontend utilizando Amazon AWS.</li>
             </ul>
         </div>
 
@@ -105,6 +103,11 @@
             <h3>Site Dev++</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iure adipisci quaerat eius repellendus hic necessitatibus cum doloribus, minima consequuntur.</p>
             <a href="https://jesiellsouza.github.io/SITE-DEV--/" target="_blank">Ver Projeto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <div class="projetos-icon">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+            </div>
         </div>
 
         <div class="projetos">
@@ -112,6 +115,11 @@
             <h3>Calculadora</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut aliquid corporis iste eum debitis nobis modi sint voluptatum eligendi magni.</p>
             <a href="https://jesiellsouza.github.io/Calculadora/" target="_blank">Ver Projeto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <div class="projetos-icon">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+            </div>
         </div>
 
         <div class="projetos">
@@ -119,6 +127,11 @@
             <h3>Meu Portfólio</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, hic tenetur? Ex repellendus iure laborum molestias nihil a, error maiores?</p>
             <a href="#">Esse aqui rsrs &#128526;</a>
+            <div class="projetos-icon">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+            </div>
         </div>
 
         <div class="projetos">
@@ -126,6 +139,10 @@
             <h3>Space Blog</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, hic tenetur? Ex repellendus iure laborum molestias nihil a, error maiores?</p>
             <a href="https://jesiellsouza.github.io/SPACE-BLOG/" target="_blank">Ver Projeto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <div class="projetos-icon">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
         </div>
 
         <div class="projetos">
@@ -133,12 +150,47 @@
             <h3>Tela de Login Dev++</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, hic tenetur? Ex repellendus iure laborum molestias nihil a, error maiores?</p>
             <a href="https://jesiellsouza.github.io/login-dev/" target="_blank">Ver Projeto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <div class="projetos-icon">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
         </div>
+
     </div>
     <!--fim-projetos-->
 
+    <hr class="linha" id="top-contato">
 
+    <!--inicio-contato-->
+    <h2 class="contato-title">Contato</h2>
+    <div class="contato-content">
+        <div class="contato">
+            <img src="./img/animation-2.gif" alt="contato">
+        </div>
 
+        <div class="contato">
+            <div class="formulario">
+                <form action="https://formsubmit.co/jesiel_123@live.com" method="POST">
+                    <input type="hidden" name="_next" value="https://jesiellsouza.github.io/Portifolio-Jesiel/">
+                    
+                    <div>
+                        <label for="name">Nome:</label><br>
+                        <input type="text" name="name" placeholder="Ex. Bruno" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="email" placeholder="Ex. contato@email.com" required>
+                    </div>
+                    <div>
+                        <label for="textarea">Mensagem:</label>
+                        <textarea name="textarea"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+               </form>
+            </div>
+        </div>
+    </div>
+    <!--final-contato-->
 
     <!--inicio-rodape-->
     <div class="rodape-content">

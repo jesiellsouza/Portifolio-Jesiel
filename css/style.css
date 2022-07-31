@@ -227,7 +227,7 @@ nav {
 .habilidade-list {
     display: flex;
     width: 550px;
-    padding: 10px;
+    padding: 0px 10px;
 }
 
 .habilidade-list li {

@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Portfólio onde coloquei projetos que desenvolvir com base no meu apredizado.
+Portfólio onde coloquei projetos que desenvolvir com base no meu aprendizado.
 
 ## :memo: Licença
 
